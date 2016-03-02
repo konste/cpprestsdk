@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23207.2
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpprestsdk140", "Release\src\build\vs14\casablanca140.vcxproj", "{1014C621-BC2D-4813-B8C1-6D83AD6F9249}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "win32", "Release\src\build\win32.vcxitems", "{F40F4804-50F9-4257-8D74-B9CBB19AC4C3}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "winrt", "Release\src\build\winrt.vcxitems", "{0A9BA181-7876-4B3D-A5E0-EE673FA51C05}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpprestsdk140.xp", "Release\src\build\vs14.xp\casablanca140.xp.vcxproj", "{88070240-8DF4-4676-B88B-DB3418AD9D87}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{64F2F240-04BE-43B2-97BE-DA47FDFE8393}"
 EndProject
@@ -63,8 +65,10 @@ Global
 		Release\src\build\common.vcxitems*{1014c621-bc2d-4813-b8c1-6d83ad6f9249}*SharedItemsImports = 4
 		Release\src\build\winrt.vcxitems*{36d79e79-7e9e-4b3a-88a3-9f9b295c80b9}*SharedItemsImports = 4
 		Release\src\build\common.vcxitems*{36d79e79-7e9e-4b3a-88a3-9f9b295c80b9}*SharedItemsImports = 4
-		Release\src\build\android.vcxitems*{afb49019-965b-4c10-baff-c86c16d58010}*SharedItemsImports = 4
+		Release\src\build\win32.vcxitems*{88070240-8df4-4676-b88b-db3418ad9d87}*SharedItemsImports = 4
+		Release\src\build\common.vcxitems*{88070240-8df4-4676-b88b-db3418ad9d87}*SharedItemsImports = 4
 		Release\src\build\common.vcxitems*{afb49019-965b-4c10-baff-c86c16d58010}*SharedItemsImports = 4
+		Release\src\build\android.vcxitems*{afb49019-965b-4c10-baff-c86c16d58010}*SharedItemsImports = 4
 		Release\src\build\win32.vcxitems*{f40f4804-50f9-4257-8d74-b9cbb19ac4c3}*SharedItemsImports = 9
 		Release\src\build\other.vcxitems*{3d5908f7-7673-4229-bc46-2007a7af9cae}*SharedItemsImports = 9
 		Release\src\build\common.vcxitems*{594dcb5f-07e3-4084-a2ce-268611fa629f}*SharedItemsImports = 9
@@ -94,6 +98,18 @@ Global
 		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Release|x64.Build.0 = Release|x64
 		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Release|x86.ActiveCfg = Release|Win32
 		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Release|x86.Build.0 = Release|Win32
+		{88070240-8DF4-4676-B88B-DB3418AD9D87}.Debug|ARM.ActiveCfg = Debug|ARM
+		{88070240-8DF4-4676-B88B-DB3418AD9D87}.Debug|Win32.ActiveCfg = Debug|Win32
+		{88070240-8DF4-4676-B88B-DB3418AD9D87}.Debug|Win32.Build.0 = Debug|Win32
+		{88070240-8DF4-4676-B88B-DB3418AD9D87}.Debug|x64.ActiveCfg = Debug|x64
+		{88070240-8DF4-4676-B88B-DB3418AD9D87}.Debug|x64.Build.0 = Debug|x64
+		{88070240-8DF4-4676-B88B-DB3418AD9D87}.Debug|x86.ActiveCfg = Debug|Win32
+		{88070240-8DF4-4676-B88B-DB3418AD9D87}.Release|ARM.ActiveCfg = Release|ARM
+		{88070240-8DF4-4676-B88B-DB3418AD9D87}.Release|Win32.ActiveCfg = Release|Win32
+		{88070240-8DF4-4676-B88B-DB3418AD9D87}.Release|Win32.Build.0 = Release|Win32
+		{88070240-8DF4-4676-B88B-DB3418AD9D87}.Release|x64.ActiveCfg = Release|x64
+		{88070240-8DF4-4676-B88B-DB3418AD9D87}.Release|x64.Build.0 = Release|x64
+		{88070240-8DF4-4676-B88B-DB3418AD9D87}.Release|x86.ActiveCfg = Release|Win32
 		{2EB9CCAA-541D-4DC1-BE2C-B1AE9712194D}.Debug|ARM.ActiveCfg = Debug|Win32
 		{2EB9CCAA-541D-4DC1-BE2C-B1AE9712194D}.Debug|Win32.ActiveCfg = Debug|Win32
 		{2EB9CCAA-541D-4DC1-BE2C-B1AE9712194D}.Debug|Win32.Build.0 = Debug|Win32
@@ -251,6 +267,7 @@ Global
 		{3D5908F7-7673-4229-BC46-2007A7AF9CAE} = {64F2F240-04BE-43B2-97BE-DA47FDFE8393}
 		{F40F4804-50F9-4257-8D74-B9CBB19AC4C3} = {64F2F240-04BE-43B2-97BE-DA47FDFE8393}
 		{0A9BA181-7876-4B3D-A5E0-EE673FA51C05} = {64F2F240-04BE-43B2-97BE-DA47FDFE8393}
+		{88070240-8DF4-4676-B88B-DB3418AD9D87} = {64F2F240-04BE-43B2-97BE-DA47FDFE8393}
 		{00EF03C1-74A9-4832-B26B-E6478C2A96AC} = {B572F8D5-9728-409C-AB5E-063C7D3CA781}
 		{B6F7411C-FE75-4CD2-A384-083A526FE6DF} = {B572F8D5-9728-409C-AB5E-063C7D3CA781}
 		{76FA5645-FF99-44C0-87DB-B96AFAC2F800} = {B572F8D5-9728-409C-AB5E-063C7D3CA781}
